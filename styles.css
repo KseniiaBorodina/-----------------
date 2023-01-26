@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 100, 100);
+}
+
+.nazva {
+    font-family: 'Comic Sans MS';
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mar {
+    font-family: "Segoe Script";
+    font-size: 45px;
+    color: white;
+}
+
+.all_names {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.box_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    margin-bottom: 150px;
+}
+
+.img_1 {
+    box-sizing: border-box;
+
+    max-width: 100%;
+    height: 300px;
+
+    object-fit: contain;
+}
+
+.but {
+    border: 2px solid #2f2f2f;;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #2f2f2f;
+}
